@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web View View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WebViewViewController" customModule="Sarwar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bl-Cp-KMx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="TXT-K7-bHe">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="dhO-oC-Rf5">
+                                            <size key="itemSize" width="415" height="736"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="webViewCell" id="q9A-h1-gbE" customClass="WebViewCollectionViewCell" customModule="Sarwar" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="415" height="736"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Jjm-We-Lmn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="415" height="736"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7PF-o8-EgA">
+                                                            <rect key="frame" x="0.0" y="0.0" width="415" height="736"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        </webView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="7PF-o8-EgA" firstAttribute="leading" secondItem="Jjm-We-Lmn" secondAttribute="leading" id="9yF-Ez-hvx"/>
+                                                        <constraint firstAttribute="trailing" secondItem="7PF-o8-EgA" secondAttribute="trailing" id="IHH-8k-lhY"/>
+                                                        <constraint firstItem="7PF-o8-EgA" firstAttribute="top" secondItem="Jjm-We-Lmn" secondAttribute="top" id="LNj-Py-4Wy"/>
+                                                        <constraint firstAttribute="bottom" secondItem="7PF-o8-EgA" secondAttribute="bottom" id="xxr-z2-Fac"/>
+                                                    </constraints>
+                                                </collectionViewCellContentView>
+                                                <size key="customSize" width="415" height="736"/>
+                                                <connections>
+                                                    <outlet property="viewWebView" destination="7PF-o8-EgA" id="XLe-2d-wtk"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="eLp-hq-6lo"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="EMO-ze-EMv"/>
+                                        </connections>
+                                    </collectionView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="TXT-K7-bHe" firstAttribute="top" secondItem="1Bl-Cp-KMx" secondAttribute="top" id="RWh-4d-WNf"/>
+                                    <constraint firstAttribute="bottom" secondItem="TXT-K7-bHe" secondAttribute="bottom" id="VaV-00-X5H"/>
+                                    <constraint firstAttribute="trailing" secondItem="TXT-K7-bHe" secondAttribute="trailing" id="khD-oa-EWy"/>
+                                    <constraint firstItem="TXT-K7-bHe" firstAttribute="leading" secondItem="1Bl-Cp-KMx" secondAttribute="leading" id="pJM-8a-LJf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Bl-Cp-KMx" secondAttribute="trailing" id="94Y-KG-FU2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Bl-Cp-KMx" secondAttribute="bottom" id="ZX4-hH-PKm"/>
+                            <constraint firstItem="1Bl-Cp-KMx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h2J-PZ-R5I"/>
+                            <constraint firstItem="1Bl-Cp-KMx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="snr-8I-BPE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewCollection" destination="TXT-K7-bHe" id="eVr-hO-8GQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.7608695652174"/>
+        </scene>
+    </scenes>
+</document>

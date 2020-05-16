@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3502733B246D505A00461F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502733A246D505A00461F01 /* AppDelegate.swift */; };
+		3502733D246D505A00461F01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502733C246D505A00461F01 /* SceneDelegate.swift */; };
+		3502733F246D505A00461F01 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502733E246D505A00461F01 /* WebViewViewController.swift */; };
+		35027342246D505A00461F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35027340246D505A00461F01 /* Main.storyboard */; };
+		35027345246D505A00461F01 /* Sarwar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35027343246D505A00461F01 /* Sarwar.xcdatamodeld */; };
+		35027347246D505A00461F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35027346246D505A00461F01 /* Assets.xcassets */; };
+		3502734A246D505A00461F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35027348246D505A00461F01 /* LaunchScreen.storyboard */; };
+		35027355246D505B00461F01 /* SarwarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35027354246D505B00461F01 /* SarwarTests.swift */; };
+		35027360246D505B00461F01 /* SarwarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502735F246D505B00461F01 /* SarwarUITests.swift */; };
+		3502736E246D522D00461F01 /* WebViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502736D246D522D00461F01 /* WebViewCollectionViewCell.swift */; };
+		35027374246E825900461F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35027373246E825900461F01 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35027351246D505B00461F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3502732F246D505A00461F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35027336246D505A00461F01;
+			remoteInfo = Sarwar;
+		};
+		3502735C246D505B00461F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3502732F246D505A00461F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35027336246D505A00461F01;
+			remoteInfo = Sarwar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35027337246D505A00461F01 /* Sarwar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sarwar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3502733A246D505A00461F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3502733C246D505A00461F01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3502733E246D505A00461F01 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		35027341246D505A00461F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35027344246D505A00461F01 /* Sarwar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sarwar.xcdatamodel; sourceTree = "<group>"; };
+		35027346246D505A00461F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35027349246D505A00461F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3502734B246D505A00461F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35027350246D505B00461F01 /* SarwarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarwarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35027354246D505B00461F01 /* SarwarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarwarTests.swift; sourceTree = "<group>"; };
+		35027356246D505B00461F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3502735B246D505B00461F01 /* SarwarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarwarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3502735F246D505B00461F01 /* SarwarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarwarUITests.swift; sourceTree = "<group>"; };
+		35027361246D505B00461F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3502736D246D522D00461F01 /* WebViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		35027373246E825900461F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35027334246D505A00461F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3502734D246D505B00461F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35027358246D505B00461F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3502732E246D505A00461F01 = {
+			isa = PBXGroup;
+			children = (
+				35027339246D505A00461F01 /* Sarwar */,
+				35027353246D505B00461F01 /* SarwarTests */,
+				3502735E246D505B00461F01 /* SarwarUITests */,
+				35027338246D505A00461F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35027338246D505A00461F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35027337246D505A00461F01 /* Sarwar.app */,
+				35027350246D505B00461F01 /* SarwarTests.xctest */,
+				3502735B246D505B00461F01 /* SarwarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35027339246D505A00461F01 /* Sarwar */ = {
+			isa = PBXGroup;
+			children = (
+				3502733A246D505A00461F01 /* AppDelegate.swift */,
+				3502733C246D505A00461F01 /* SceneDelegate.swift */,
+				3502733E246D505A00461F01 /* WebViewViewController.swift */,
+				35027373246E825900461F01 /* ViewController.swift */,
+				3502736D246D522D00461F01 /* WebViewCollectionViewCell.swift */,
+				35027340246D505A00461F01 /* Main.storyboard */,
+				35027346246D505A00461F01 /* Assets.xcassets */,
+				35027348246D505A00461F01 /* LaunchScreen.storyboard */,
+				3502734B246D505A00461F01 /* Info.plist */,
+				35027343246D505A00461F01 /* Sarwar.xcdatamodeld */,
+			);
+			path = Sarwar;
+			sourceTree = "<group>";
+		};
+		35027353246D505B00461F01 /* SarwarTests */ = {
+			isa = PBXGroup;
+			children = (
+				35027354246D505B00461F01 /* SarwarTests.swift */,
+				35027356246D505B00461F01 /* Info.plist */,
+			);
+			path = SarwarTests;
+			sourceTree = "<group>";
+		};
+		3502735E246D505B00461F01 /* SarwarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3502735F246D505B00461F01 /* SarwarUITests.swift */,
+				35027361246D505B00461F01 /* Info.plist */,
+			);
+			path = SarwarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35027336246D505A00461F01 /* Sarwar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35027364246D505B00461F01 /* Build configuration list for PBXNativeTarget "Sarwar" */;
+			buildPhases = (
+				35027333246D505A00461F01 /* Sources */,
+				35027334246D505A00461F01 /* Frameworks */,
+				35027335246D505A00461F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sarwar;
+			productName = Sarwar;
+			productReference = 35027337246D505A00461F01 /* Sarwar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3502734F246D505B00461F01 /* SarwarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35027367246D505B00461F01 /* Build configuration list for PBXNativeTarget "SarwarTests" */;
+			buildPhases = (
+				3502734C246D505B00461F01 /* Sources */,
+				3502734D246D505B00461F01 /* Frameworks */,
+				3502734E246D505B00461F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35027352246D505B00461F01 /* PBXTargetDependency */,
+			);
+			name = SarwarTests;
+			productName = SarwarTests;
+			productReference = 35027350246D505B00461F01 /* SarwarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3502735A246D505B00461F01 /* SarwarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3502736A246D505B00461F01 /* Build configuration list for PBXNativeTarget "SarwarUITests" */;
+			buildPhases = (
+				35027357246D505B00461F01 /* Sources */,
+				35027358246D505B00461F01 /* Frameworks */,
+				35027359246D505B00461F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3502735D246D505B00461F01 /* PBXTargetDependency */,
+			);
+			name = SarwarUITests;
+			productName = SarwarUITests;
+			productReference = 3502735B246D505B00461F01 /* SarwarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3502732F246D505A00461F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Rizwan Ali";
+				TargetAttributes = {
+					35027336246D505A00461F01 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					3502734F246D505B00461F01 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 35027336246D505A00461F01;
+					};
+					3502735A246D505B00461F01 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 35027336246D505A00461F01;
+					};
+				};
+			};
+			buildConfigurationList = 35027332246D505A00461F01 /* Build configuration list for PBXProject "Sarwar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3502732E246D505A00461F01;
+			productRefGroup = 35027338246D505A00461F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35027336246D505A00461F01 /* Sarwar */,
+				3502734F246D505B00461F01 /* SarwarTests */,
+				3502735A246D505B00461F01 /* SarwarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35027335246D505A00461F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3502734A246D505A00461F01 /* LaunchScreen.storyboard in Resources */,
+				35027347246D505A00461F01 /* Assets.xcassets in Resources */,
+				35027342246D505A00461F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3502734E246D505B00461F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35027359246D505B00461F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35027333246D505A00461F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3502733F246D505A00461F01 /* WebViewViewController.swift in Sources */,
+				3502733B246D505A00461F01 /* AppDelegate.swift in Sources */,
+				3502733D246D505A00461F01 /* SceneDelegate.swift in Sources */,
+				3502736E246D522D00461F01 /* WebViewCollectionViewCell.swift in Sources */,
+				35027374246E825900461F01 /* ViewController.swift in Sources */,
+				35027345246D505A00461F01 /* Sarwar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3502734C246D505B00461F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35027355246D505B00461F01 /* SarwarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35027357246D505B00461F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35027360246D505B00461F01 /* SarwarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35027352246D505B00461F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35027336246D505A00461F01 /* Sarwar */;
+			targetProxy = 35027351246D505B00461F01 /* PBXContainerItemProxy */;
+		};
+		3502735D246D505B00461F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35027336246D505A00461F01 /* Sarwar */;
+			targetProxy = 3502735C246D505B00461F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35027340246D505A00461F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35027341246D505A00461F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35027348246D505A00461F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35027349246D505A00461F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35027362246D505B00461F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35027363246D505B00461F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35027365246D505B00461F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MVY25HYQD;
+				INFOPLIST_FILE = Sarwar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rapidzz.Sarwar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		35027366246D505B00461F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MVY25HYQD;
+				INFOPLIST_FILE = Sarwar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rapidzz.Sarwar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		35027368246D505B00461F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MVY25HYQD;
+				INFOPLIST_FILE = SarwarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rapidzz.SarwarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sarwar.app/Sarwar";
+			};
+			name = Debug;
+		};
+		35027369246D505B00461F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MVY25HYQD;
+				INFOPLIST_FILE = SarwarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rapidzz.SarwarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sarwar.app/Sarwar";
+			};
+			name = Release;
+		};
+		3502736B246D505B00461F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MVY25HYQD;
+				INFOPLIST_FILE = SarwarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rapidzz.SarwarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sarwar;
+			};
+			name = Debug;
+		};
+		3502736C246D505B00461F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MVY25HYQD;
+				INFOPLIST_FILE = SarwarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rapidzz.SarwarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sarwar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35027332246D505A00461F01 /* Build configuration list for PBXProject "Sarwar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35027362246D505B00461F01 /* Debug */,
+				35027363246D505B00461F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35027364246D505B00461F01 /* Build configuration list for PBXNativeTarget "Sarwar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35027365246D505B00461F01 /* Debug */,
+				35027366246D505B00461F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35027367246D505B00461F01 /* Build configuration list for PBXNativeTarget "SarwarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35027368246D505B00461F01 /* Debug */,
+				35027369246D505B00461F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3502736A246D505B00461F01 /* Build configuration list for PBXNativeTarget "SarwarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3502736B246D505B00461F01 /* Debug */,
+				3502736C246D505B00461F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35027343246D505A00461F01 /* Sarwar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35027344246D505A00461F01 /* Sarwar.xcdatamodel */,
+			);
+			currentVersion = 35027344246D505A00461F01 /* Sarwar.xcdatamodel */;
+			path = Sarwar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3502732F246D505A00461F01 /* Project object */;
+}
