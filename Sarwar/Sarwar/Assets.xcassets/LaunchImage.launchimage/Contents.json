@@ -4,7 +4,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2688h",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-3.jpeg",
+      "filename" : "iphoneXDevices.jpeg",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -21,7 +21,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "1792h",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-4.jpeg",
+      "filename" : "iphoneXDevices-1.jpeg",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -38,7 +38,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2436h",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-2.jpeg",
+      "filename" : "iphoneXDevices-2.jpeg",
       "minimum-system-version" : "11.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -55,7 +55,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-1.jpeg",
+      "filename" : "iphonePlusDevices-1.jpeg",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -72,7 +72,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "667h",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy.jpeg",
+      "filename" : "iphonePlusDevices.jpeg",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -80,7 +80,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-7.jpeg",
+      "filename" : "iphonePlusDevices-2.jpeg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -89,7 +89,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-5.jpeg",
+      "filename" : "iphonePlusDevices-4.jpeg",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -97,21 +97,20 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-9.jpeg",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-8.jpeg",
+      "filename" : "iphonePlusDevices-3.jpeg",
       "extent" : "full-screen",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "WhatsApp Image 2020-05-14 at 4.48.37 PM (1) copy-6.jpeg",
+      "filename" : "iphonePlusDevices-5.jpeg",
       "extent" : "full-screen",
       "subtype" : "retina4",
       "scale" : "2x"

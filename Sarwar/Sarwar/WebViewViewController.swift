@@ -20,11 +20,17 @@ struct ScreenSize
     
 class WebViewViewController: UIViewController {
     
+    
     @IBOutlet weak var viewCollection: UICollectionView!
    
     let IS_IPHONE_X_All = (UIDevice.current.userInterfaceIdiom == .phone && (ScreenSize.SCREEN_MAX_LENGTH == 812 || ScreenSize.SCREEN_MAX_LENGTH == 896))
     var URLCount = 0
-    let arrayURL = ["https://www.facebook.com/ChMohammadSarwar/?ref=br_rs","https://www.facebook.com/SarwarFoundation/","https://twitter.com/ChMSarwar","https://twitter.com/TeamSarwar"]
+//    let arrayURL = ["https://www.facebook.com/ChMohammadSarwar/?ref=br_rs","https://www.facebook.com/SarwarFoundation/","https://twitter.com/ChMSarwar","https://twitter.com/TeamSarwar"]
+    
+    let arrayDict:[[String: String]] = [["title": "Mohammad Sarwar Facebook", "url":"https://www.facebook.com/ChMohammadSarwar/?ref=br_rs"],
+    ["title": "Sarwar Foundation Facebook", "url":"https://www.facebook.com/SarwarFoundation/"],
+    ["title": "Mohammad Sarwar Twitter ", "url":"https://twitter.com/ChMSarwar"],
+    ["title": "Team Sarwar Twitter", "url":"https://twitter.com/TeamSarwar"]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +43,7 @@ class WebViewViewController: UIViewController {
    //MARK: - FUNCTION
     func checkInternetConnection(){
         if isConnectedToNetwork(){
-            self.URLCount = arrayURL.count
+            self.URLCount = arrayDict.count
             self.viewCollection.reloadData()
             
         }else{
@@ -81,12 +87,12 @@ class WebViewViewController: UIViewController {
 //MARK: - EXTENSION COLLECTION VIEW METHOD
 extension WebViewViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.URLCount
+        return self.arrayDict.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let webCell = collectionView.dequeueReusableCell(withReuseIdentifier: "webViewCell", for: indexPath) as! WebViewCollectionViewCell
-        webCell.configureView(data: self.arrayURL[indexPath.row])
+        webCell.configureView(data: self.arrayDict[indexPath.row])
         return webCell
     }
     
