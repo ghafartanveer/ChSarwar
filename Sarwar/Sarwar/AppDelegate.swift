@@ -3,7 +3,7 @@
 //  Sarwar
 //
 //  Created by Rizwan Ali on 14/05/2020.
-//  Copyright © 2020 Rizwan Ali. All rights reserved.
+//  Copyright © 2020 Rizwan Ali. All rights reserved. 
 //
 
 import UIKit
